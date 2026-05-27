@@ -1,0 +1,6 @@
+{
+  "name": "Apps Built with AI Summit",
+  "description": "High-fidelity landing page section for the Apps Built with AI Summit, featuring stylized circuit patterns, a countdown of days, and an interactive lead capture form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
