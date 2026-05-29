@@ -734,47 +734,24 @@ export function SummitEndSection() {
 
         <div className="w-full max-w-5xl mx-auto relative z-10 flex flex-col items-center space-y-8">
           
-          {/* Replicated Double loops / interlocking interlocking branding logo from screenshot */}
-          <div className="flex items-center gap-3 select-none">
-            {/* SVG custom logo loop as requested */}
-            <svg 
-              className="w-7 h-7 text-white" 
-              viewBox="0 0 40 40" 
-              fill="none" 
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path 
-                d="M15 12C11.134 12 8 15.134 8 19C8 22.866 11.134 26 15 26C18.866 26 22 22.866 22 19C22 15.134 18.866 12 15 12Z" 
-                stroke="currentColor" 
-                strokeWidth="4" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-              />
-              <path 
-                d="M25 14C23.3431 14 22 15.3431 22 17C22 18.6569 23.3431 20 25 20C26.6569 20 28 18.6569 28 17C28 15.3431 26.6569 14 25 14Z" 
-                fill="currentColor" 
-              />
-              <path 
-                d="M25 20C21.134 20 18 23.134 18 27C18 30.866 21.134 34 25 34C28.866 34 32 30.866 32 27C32 23.134 28.866 20 25 20Z" 
-                stroke="currentColor" 
-                strokeWidth="4" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-              />
-              <path 
-                d="M15 20C16.6569 20 18 18.6569 18 17C18 15.3431 16.6569 14 15 14C13.3431 14 12 15.3431 12 17C12 18.6569 13.3431 20 15 20Z" 
-                fill="currentColor" 
-              />
-            </svg>
-            
-            <span className="font-sans font-black text-white text-lg tracking-tight">
-              AppsBuiltWith<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">AI</span>
+          {/* Replicated logo and typography from header */}
+          <div className="flex flex-col items-center gap-3 select-none">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 bg-amber-500 rounded flex items-center justify-center font-black text-slate-950 tracking-tighter">
+                AI
+              </div>
+              <span className="font-display font-black tracking-tighter text-white text-lg sm:text-xl block uppercase">
+                AI Founder Hub
+              </span>
+            </div>
+            <span className="text-xs font-mono tracking-widest text-amber-500/90 block uppercase font-extrabold text-center">
+              The place where founders build with AI.
             </span>
           </div>
 
           <div className="text-center space-y-2">
             <p className="text-xs font-semibold text-slate-300">
-              Copyright 2026. AppsBuiltWithAI. All Rights Reserved.
+              Copyright 2026. AIFounderHub. All Rights Reserved.
             </p>
             
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] font-bold text-slate-400">
@@ -798,13 +775,13 @@ export function SummitEndSection() {
                 Terms of Service
               </button>
               <span className="text-slate-700">|</span>
-              <a href="mailto:support@appsbuiltwithai.com" className="hover:text-purple-400 transition-colors">
+              <a href="mailto:support@aifounderhub.com" className="hover:text-purple-400 transition-colors">
                 Contact
               </a>
             </div>
 
             <p className="text-[11px] font-mono text-indigo-400 select-all hover:underline pt-1">
-              https://support.appsbuiltwithai.com
+              https://support.aifounderhub.com
             </p>
           </div>
 

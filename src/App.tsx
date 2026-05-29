@@ -260,10 +260,7 @@ export default function App() {
           </div>
           <div>
             <span className="font-display font-black tracking-tighter text-white text-lg sm:text-xl block uppercase">
-              APPS BUILT WITH AI
-            </span>
-            <span className="text-[10px] font-mono tracking-widest text-amber-500 block uppercase font-extrabold">
-              Virtual Global Summit 2026
+              AI Founder Hub
             </span>
           </div>
         </div>
@@ -479,7 +476,7 @@ export default function App() {
                     />
                   </div>
                   <div className="text-[11px] leading-[1.5] text-[#94a3b8]">
-                    By opting in, you consent to receive important marketing and promotional sms notifications about the Apps Built with AI Summit. Message frequency may vary. Msg & data rates may apply. Message frequency varies. Reply HELP for help, STOP to opt-out.{" "}
+                    By opting in, you consent to receive important marketing and promotional sms notifications about the AI Founder Hub. Message frequency may vary. Msg & data rates may apply. Message frequency varies. Reply HELP for help, STOP to opt-out.{" "}
                     <button
                       type="button"
                       onClick={() => setActiveModal("privacy")}
@@ -550,7 +547,7 @@ export default function App() {
                     Congratulations, {firstName}! 
                   </h3>
                   <p className="text-xs text-slate-400 max-w-sm mx-auto">
-                    Your VIP Seat is confirmed. We have generated your dynamic AI Summit Pass & emailed instructions to <span className="font-semibold text-slate-200">{emailAddress}</span>.
+                    Your VIP Seat is confirmed. We have generated your dynamic AI Founder Access Pass & emailed instructions to <span className="font-semibold text-slate-200">{emailAddress}</span>.
                   </p>
                 </div>
 
@@ -563,10 +560,10 @@ export default function App() {
                   <div className="flex justify-between items-start border-b border-white/10 pb-4 mb-4">
                     <div>
                       <div className="text-[10px] font-mono font-black tracking-widest text-amber-500 uppercase">
-                        SUMMIT ALL-ACCESS ENTRY
+                        FOUNDER ALL-ACCESS ENTRY
                       </div>
                       <div className="font-display font-black text-slate-100 text-xl uppercase mt-1 leading-none">
-                        APPS BUILT WITH AI
+                        AI Founder Hub
                       </div>
                     </div>
                     <Ticket className="w-8 h-8 text-amber-500 opacity-90 animate-pulse" />
@@ -623,7 +620,7 @@ export default function App() {
                   <button
                     onClick={() => {
                       // Simulating inviting a friend
-                      const text = `I just registered for the Apps Built with AI Global Summit! Check it out!`;
+                      const text = `I just registered for the AI Founder Hub! Check it out!`;
                       navigator.clipboard.writeText(text);
                       alert("Share link copied to clipboard!");
                     }}
@@ -699,38 +696,38 @@ export default function App() {
                 <>
                   <p className="font-semibold text-slate-200">Last updated: May 2026</p>
                   <p>
-                    Your privacy is extremely important to us. Here is how your registration data is handled for the 3-Day Apps Built with AI Global Summit.
+                    Your privacy is extremely important to us. Here is how your registration data is handled for the AI Founder Hub.
                   </p>
                   <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">1. Information Collection</h4>
                   <p>
-                    We collect your Name, Email Address, and Phone Number solely to issue your virtual summit pass, verify attendance, and deliver direct messages containing training workbook materials and session updates.
+                    We collect your Name, Email Address, and Phone Number solely to issue your access, verify credentials, and deliver training workbook materials and session updates from the Hub.
                   </p>
                   <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">2. Text (SMS) Notifications</h4>
                   <p>
-                    By checking the opt-in checkbox, you explicitly consent to receive automated promotional SMS messages regarding speaker timings and live replay access links. Message frequency is limited to up to 4 texts per day during coordinates. Msg & data rates may apply. You can reply STOP at any moment to instantly discontinue.
+                    By checking the opt-in checkbox, you explicitly consent to receive automated promotional SMS messages regarding speaker timings and live build sessions. Message frequency is limited to up to 4 texts per day during events. Msg & data rates may apply. You can reply STOP at any moment to instantly discontinue.
                   </p>
                   <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">3. Third-party Sharing</h4>
                   <p>
-                    We guarantee zero sales or transfers of your contact metrics to unrelated marketing agencies. All internal analytics are stored securely using validated end-to-end cloud database encryption.
+                    We guarantee zero sales or transfers of your contact metrics to unrelated marketing agencies. All data is stored securely using validated end-to-end cloud database encryption.
                   </p>
                 </>
               ) : (
                 <>
                   <p className="font-semibold text-slate-200">Last updated: May 2026</p>
                   <p>
-                    Welcome to the Apps Built with AI Summit registration process. By securing your seat, you agree to comply with the general broadcast terms:
+                    Welcome to the AI Founder Hub platform registration process. By securing your seat, you agree to comply with the general terms:
                   </p>
                   <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">1. Educational Disclaimer</h4>
                   <p>
-                    The 3-Day summit delivers live AI software demonstrations utilizing Gemini APIs, LangChain, and alternative large language developer packages. Individual success is dependent on your implementation, active participation, and individual project variables.
+                    The training delivers live AI software demonstrations utilizing modern generative APIs, prompting techniques, and frontend dev wrappers. Individual success is dependent on your implementation, active participation, and individual project variables.
                   </p>
                   <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">2. Intellectual Property</h4>
                   <p>
-                    Provided visual slides, code files, and workbook content shared throughout the event are owned by Apps Built with AI. Standard attendance grants a private, single-user license to implement the curriculum, but copying/reselling the summit broadcast modules is forbidden.
+                    Provided visual slides, code files, and workbook content shared throughout the platform are owned by AI Founder Hub. Standard usage grants a private, single-user license to implement the curriculum, but copying or reselling these resource modules is forbidden.
                   </p>
-                  <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">3. Free Ticket Guidelines</h4>
+                  <h4 className="font-bold text-slate-300 text-[13px] uppercase tracking-wide pt-2">3. Free Access Guidelines</h4>
                   <p>
-                    Your Virtual seat provides live broadcast streaming links during scheduled hours (May 22-24, 2026). Replay access is maintained temporarily at the discretion of the summit administrators unless a VIP premium recordings pass is acquired.
+                    Your Virtual pass provides live broadcast streaming links during scheduled event hours. Resource access is maintained temporarily at the discretion of the Hub administrators unless a premium VIP recordings pass is acquired.
                   </p>
                 </>
               )}
